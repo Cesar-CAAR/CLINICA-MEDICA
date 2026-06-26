@@ -92,7 +92,7 @@ import { RouterLink } from '@angular/router';
       <div class="grid cols-3">
         <article class="card module-card">
           <div>
-            <div class="icon">📅</div>
+            
             <h3>Mis citas</h3>
             <p>Consulta o reprograma tus citas médicas.</p>
           </div>
@@ -102,7 +102,7 @@ import { RouterLink } from '@angular/router';
 
         <article class="card module-card">
           <div>
-            <div class="icon">📁</div>
+            
             <h3>Historial</h3>
             <p>Consulta diagnósticos generales y vacunas registradas.</p>
           </div>
@@ -114,7 +114,7 @@ import { RouterLink } from '@angular/router';
 
         <article class="card module-card">
           <div>
-            <div class="icon">💊</div>
+            
             <h3>Recetas</h3>
             <p>Revisa las recetas emitidas por tus médicos.</p>
           </div>

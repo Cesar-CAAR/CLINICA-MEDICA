@@ -13,7 +13,7 @@ import { RouterLink } from '@angular/router';
             <span>Pacientes activos</span>
             <strong>128</strong>
           </div>
-          <div class="kpi-icon">🧑‍🤝‍🧑</div>
+          
         </article>
 
         <article class="card kpi">
@@ -21,7 +21,7 @@ import { RouterLink } from '@angular/router';
             <span>Médicos registrados</span>
             <strong>18</strong>
           </div>
-          <div class="kpi-icon">🩺</div>
+          
         </article>
 
         <article class="card kpi">
@@ -29,7 +29,7 @@ import { RouterLink } from '@angular/router';
             <span>Citas de hoy</span>
             <strong>42</strong>
           </div>
-          <div class="kpi-icon">📅</div>
+          
         </article>
 
         <article class="card kpi">
@@ -37,14 +37,14 @@ import { RouterLink } from '@angular/router';
             <span>Consultorios</span>
             <strong>8</strong>
           </div>
-          <div class="kpi-icon">🏢</div>
+          
         </article>
       </div>
 
       <div class="grid cols-3">
         <article class="card module-card">
           <div>
-            <div class="icon">🧑‍🦱</div>
+            
             <h3>Gestión de pacientes</h3>
             <p>
               Alta, baja, edición y consulta de datos personales,
@@ -58,7 +58,7 @@ import { RouterLink } from '@angular/router';
 
         <article class="card module-card">
           <div>
-            <div class="icon">🩺</div>
+            <div class="icon"></div>
             <h3>Gestión de médicos</h3>
             <p>
               Registro de médicos, especialidades, consultorios
@@ -72,7 +72,7 @@ import { RouterLink } from '@angular/router';
 
         <article class="card module-card">
           <div>
-            <div class="icon">📅</div>
+            
             <h3>Agenda de citas</h3>
             <p>
               Control de disponibilidad, citas por hora y estado de atención.

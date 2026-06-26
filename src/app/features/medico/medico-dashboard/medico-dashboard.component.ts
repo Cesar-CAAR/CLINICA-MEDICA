@@ -13,7 +13,7 @@ import { RouterLink } from '@angular/router';
             <span>Citas asignadas</span>
             <strong>16</strong>
           </div>
-          <div class="kpi-icon">📅</div>
+          <div class="kpi-icon"></div>
         </article>
 
         <article class="card kpi">
@@ -21,7 +21,7 @@ import { RouterLink } from '@angular/router';
             <span>Pacientes atendidos</span>
             <strong>9</strong>
           </div>
-          <div class="kpi-icon">✅</div>
+          <div class="kpi-icon"></div>
         </article>
 
         <article class="card kpi">
@@ -29,7 +29,7 @@ import { RouterLink } from '@angular/router';
             <span>Recetas emitidas</span>
             <strong>7</strong>
           </div>
-          <div class="kpi-icon">💊</div>
+          <div class="kpi-icon"></div>
         </article>
       </div>
 
@@ -65,15 +65,15 @@ import { RouterLink } from '@angular/router';
 
           <div class="form-grid">
             <a routerLink="/medico/agenda" class="btn secondary">
-              📅 Ver agenda del día
+               Ver agenda del día
             </a>
 
             <a routerLink="/medico/expediente" class="btn secondary">
-              📁 Registrar nota de evolución
+               Registrar nota de evolución
             </a>
 
             <a routerLink="/medico/expediente" class="btn secondary">
-              💊 Emitir receta digital
+               Emitir receta digital
             </a>
           </div>
         </article>

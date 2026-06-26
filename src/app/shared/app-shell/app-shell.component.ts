@@ -18,40 +18,44 @@ import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 
         <p class="nav-section-title">Administración</p>
         <a class="nav-link" routerLink="/admin/dashboard" routerLinkActive="active">
-          🏠 Panel general
+           Panel general
         </a>
         <a class="nav-link" routerLink="/admin/pacientes" routerLinkActive="active">
-          🧑‍🦱 Pacientes
+           Pacientes
         </a>
         <a class="nav-link" routerLink="/admin/medicos" routerLinkActive="active">
-          🩺 Médicos
+           Médicos
         </a>
         <a class="nav-link" routerLink="/admin/citas" routerLinkActive="active">
-          📅 Citas
+           Citas
         </a>
 
         <p class="nav-section-title">Médico</p>
         <a class="nav-link" routerLink="/medico/dashboard" routerLinkActive="active">
-          📋 Resumen médico
+           Resumen médico
         </a>
         <a class="nav-link" routerLink="/medico/agenda" routerLinkActive="active">
-          ⏰ Agenda del día
+           Agenda del día
         </a>
         <a class="nav-link" routerLink="/medico/expediente" routerLinkActive="active">
-          📁 Expediente clínico
+           Expediente clínico
+        </a>
+         <a class="nav-link" routerLink="/medico/diagnosticos" routerLinkActive="active">
+          Diagnósticos
         </a>
 
         <p class="nav-section-title">Paciente</p>
         <a class="nav-link" routerLink="/paciente/dashboard" routerLinkActive="active">
-          📱 Portal paciente
+           Portal paciente
         </a>
         <a class="nav-link" routerLink="/paciente/historial" routerLinkActive="active">
-          💊 Historial y recetas
+           Historial y recetas
         </a>
+       
 
         <p class="nav-section-title">Sesión</p>
         <a class="nav-link" routerLink="/auth/login">
-          🚪 Cerrar sesión
+           Cerrar sesión
         </a>
       </aside>
 

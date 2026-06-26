@@ -25,7 +25,7 @@ import { CommonModule } from '@angular/common';
             <span>Recetas previas</span>
             <strong>6</strong>
           </div>
-          <div class="kpi-icon">💊</div>
+          
         </article>
 
         <article class="card kpi">
@@ -33,7 +33,7 @@ import { CommonModule } from '@angular/common';
             <span>Diagnósticos</span>
             <strong>4</strong>
           </div>
-          <div class="kpi-icon">📋</div>
+          
         </article>
 
         <article class="card kpi">
@@ -41,7 +41,7 @@ import { CommonModule } from '@angular/common';
             <span>Vacunas</span>
             <strong>9</strong>
           </div>
-          <div class="kpi-icon">💉</div>
+          
         </article>
       </div>
 

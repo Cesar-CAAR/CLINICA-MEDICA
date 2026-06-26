@@ -22,7 +22,7 @@ import { CommonModule } from '@angular/common';
             <span>En espera</span>
             <strong>14</strong>
           </div>
-          <div class="kpi-icon">⏳</div>
+         
         </article>
 
         <article class="card kpi">
@@ -30,7 +30,7 @@ import { CommonModule } from '@angular/common';
             <span>Completadas</span>
             <strong>22</strong>
           </div>
-          <div class="kpi-icon">✅</div>
+          
         </article>
 
         <article class="card kpi">
@@ -38,7 +38,7 @@ import { CommonModule } from '@angular/common';
             <span>Retrasadas</span>
             <strong>4</strong>
           </div>
-          <div class="kpi-icon">⚠️</div>
+         
         </article>
 
         <article class="card kpi">
@@ -46,7 +46,7 @@ import { CommonModule } from '@angular/common';
             <span>Canceladas</span>
             <strong>2</strong>
           </div>
-          <div class="kpi-icon">❌</div>
+          
         </article>
       </div>
 

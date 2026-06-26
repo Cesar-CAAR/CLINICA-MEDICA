@@ -80,7 +80,14 @@ export const routes: Routes = [
           import('./features/paciente/historial-paciente/historial-paciente.component').then(
             m => m.HistorialPacienteComponent
           )
-      }
+      },
+      {
+  path: 'medico/diagnosticos',
+  loadComponent: () =>
+    import('./features/diagnosticos/diagnosticos.component').then(
+      m => m.DiagnosticosComponent
+    )
+}
     ]
   },
   {
